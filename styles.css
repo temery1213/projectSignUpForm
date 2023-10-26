@@ -115,8 +115,9 @@ footer {
 
 @media (min-width: 1001px) {
     footer img {
-      width: 30%; /* Adjust the width percentage as needed */
-      height: auto; /* Maintain the image's aspect ratio */
+      width: 30%; 
+      height: auto; 
+      max-width: 450px;
     }
   }
 
@@ -148,8 +149,8 @@ p {
 
 
 footer img {
-    position: relative;
-    margin-bottom: ;
+    margin-top: 20px;
+    
 }
 
 
