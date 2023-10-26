@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: auto;
+    width: 100;
+    background-color: #000000;
+    color: rgb(233, 250, 0);
+    font-family: 'Cyberpunk is not dead', sans-serif;
+    font-size: 11px;
+    min-height: 100vh;
+    
+    max-width: 624px;
+}
+
+.formCard {
+    display: flex;
+    height: 600px;
+    width: auto;
+}
+
+input:focus {
+        background-color: rgb(233, 250, 0);
+        border-color:   aqua;
+      }
+
+
+
+.sideImage img {
+    max-height: 100%;
+    width: auto;
+}
+
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    padding: 5px
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: fit-content;
+    background: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+}
+
+
+h1  {
+    padding: 5px 10px;
+    
+}
+
+.glow {
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #e6ff02, 0 0 10px #00ffff, 0 0 10px #00e6e6, 0 0 40px #008ae6;
+    }
+    
+    to {
+      text-shadow: 0 0 5px #e6ff02, 0 0 10px #00eeff, 0 0 20px #00ecfd, 0 0 50px #04f2fa;
+    }
+  }
+
+.textContent p {
+    margin-left: 15px;
+
+   
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    bottom: 0;
+    background-color:rgb(233, 250, 0);
+    width: 624px;
+    height: 10vh;
+    color: black;
+     
+}
+
+
+
+
+
+
+
+
+footer p {
+    font-size: 7px;
+    margin-left: 500px;
+}
+
+p {
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+
+footer img {
+    margin-top: 20px;
+}
+
+
+input[type=submit] {
+    color: black;
+    background-color: yellow;
+    width: 80px;
+    padding: 5px;
+    font-size: 10px;
+    font-family: 'Cyberpunk is not dead', sans-serif;
+}
+
