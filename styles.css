@@ -6,6 +6,10 @@
 
 html, body {
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
     width: 100%;
     background-color: #000000;
     color: rgb(233, 250, 0);
