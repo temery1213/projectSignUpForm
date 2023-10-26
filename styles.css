@@ -17,7 +17,7 @@ html, body {
     font-size: 11px;
     min-height: 100vh;
     max-width: 100%;
-    max-height: 572px;
+ 
 }
 
 
@@ -25,9 +25,11 @@ html, body {
 .formCard {
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 100%;
+    height: 100%;
     
 }
+
 
 input:focus {
         background-color: rgb(233, 250, 0);
@@ -111,7 +113,12 @@ footer {
      
 }
 
-
+@media (min-width: 1001px) {
+    footer img {
+      width: 30%; /* Adjust the width percentage as needed */
+      height: auto; /* Maintain the image's aspect ratio */
+    }
+  }
 
 
 
@@ -141,7 +148,8 @@ p {
 
 
 footer img {
-    margin-top: 20px;
+    position: relative;
+    margin-bottom: ;
 }
 
 
