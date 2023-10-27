@@ -99,9 +99,12 @@ h1  {
 
 .textContent p {
     margin-left: 15px;
+    color: #e6ff02;
 
    
 }
+
+
 
 
 footer {
@@ -148,6 +151,7 @@ p {
     width: 50vh;
     margin-left: 50px;
     margin-bottom: 100px;
+    background-color: #000000;
 }
 
 
@@ -167,3 +171,10 @@ input[type=submit] {
     font-family: 'Cyberpunk is not dead', sans-serif;
 }
 
+.odin {
+    margin-top: 13%;
+}
+
+.preem {
+   
+}
